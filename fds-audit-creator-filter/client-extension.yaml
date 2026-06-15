@@ -1,0 +1,7 @@
+assemble:
+    - from: build/static
+      into: static
+fds-audit-creator-filter:
+    name: FDS Audit Creator Filter
+    type: fdsFilter
+    url: index.*.js

@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "@liferay/js-api": "0.6.0-pre.0"
+    },
+    "description": "FDS Audit Creator Filter - filters FDS records by auditEvents creator name",
+    "devDependencies": {
+        "ts-loader": "9.5.1",
+        "typescript": "^5.0.4",
+        "webpack": "5.90.1",
+        "webpack-cli": "5.1.4",
+        "webpack-dev-server": "4.15.1"
+    },
+    "main": "./src/index.ts",
+    "name": "@liferay/fds-audit-creator-filter",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve",
+        "watch": "tsc --watch"
+    },
+    "version": "1.0.0"
+}
